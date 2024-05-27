@@ -1,0 +1,172 @@
+main {
+  overflow: hidden;
+}
+
+.container {
+  height: calc(100vh - 70px);
+  height: 550px;
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+  align-items: end;
+  position: relative;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.imgs {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  overflow: hidden;
+  background-color: #fff;
+
+}
+
+.teacherImg {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.178);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  position: absolute;
+  left: 0;
+}
+
+
+.imgbtn {
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #00000046;
+}
+
+.imgbtn img {
+  width: 90px;
+}
+
+main h1 {
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+}
+
+.event-btn {
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.event-btn button {
+  width: 300px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #f14704;
+  border: none;
+  cursor: pointer;
+  transition: 0.23s ease-in-out;
+}
+
+.event-btn button:hover {
+  transform: scale(1.03);
+  opacity: 0.88;
+  box-shadow: 0px 0px 30px #0f0f0f56;
+  background-color: #000000;
+  flood-color: #f14704;
+}
+
+.event-btn button a {
+  font-size: 20px;
+}
+
+
+
+
+
+
+@media (max-width: 595px) {
+  main h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 515px) {
+  main h1 {
+    font-size: 35px;
+  }
+
+  .container {
+    height: 450px;
+    width: 400px;
+  }
+
+  .imgs {
+    height: 400px;
+
+  }
+
+  .teacherImg {
+    width: 400px;
+    height: 400px;
+  }
+
+
+  .imgbtn {
+    width: 400px;
+  }
+
+  .imgbtn img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 415px) {
+
+  main h1 {
+    font-size: 26px;
+  }
+
+  .container {
+    height: 350px;
+    width: 372px;
+  }
+
+  .imgs {
+    height: 372px;
+
+  }
+
+  .teacherImg {
+    width: 372px;
+    height: 372px;
+  }
+
+
+  .imgbtn {
+    width: 372px;
+  }
+
+  .imgbtn img {
+    width: 60px;
+  }
+
+  .event-btn button {
+    width: 260px;
+    height: 60px;
+    border-radius: 12px;
+  }
+
+  .event-btn button:hover {
+    transform: scale(1.03);
+    opacity: 0.88;
+    box-shadow: 0px 0px 30px #0f0f0f56;
+    background-color: #000000;
+    flood-color: #f14704;
+  }
+
+  .event-btn button a {
+    font-size: 18px;
+  }
+}

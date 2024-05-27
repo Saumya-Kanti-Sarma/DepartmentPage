@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poetsen+One&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDC college Chemistry Department (DMR)</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="Defaultstyle.css">
+  <link rel="stylesheet" href="src/Menu/Menu.css">
+</head>
+
+<body>
+  <nav>
+    <ul class="Navigations">
+      <a href="/">Home</a>
+      <a href="#">Alumnies</a>
+      <a href="">Teachers</a>
+      <a href="src/Events/Event.html">Events</a>
+      <a href="">About</a>
+      <img src="./Public/Webs/menu.svg" alt="Cross Btn" id="menubtn">
+    </ul>
+
+  </nav>
+  <main data-aos="fade-up" data-aos-delay="300">
+    <h1 data-aos="flip-left" data-aos-delay="500"> Welcome to Our Wesite</h1>
+    <div class="container">
+
+      <div class="imgs">
+        <img class="teacherImg" src="Public/WallMagazine/7.jpg" alt="">
+        <img class="teacherImg" src="Public/MotivationSeminar/1.jpg" alt="">
+        <img class="teacherImg" src="Public/WallMagazine/8.jpg" alt="">
+        <img class="teacherImg" src="Public/MotivationSeminar/3.jpg">
+      </div>
+    </div>
+    <div class="imgbtn" data-aos="fade-up" data-aos-delay="700">
+      <img src="Public/Webs/left.svg" class="nextBtn " alt="">
+      <img src="Public/Webs/right.svg" class="prevBtn " alt="">
+    </div>
+    </div>
+    <div class="event-btn" data-aos="fade-up" data-aos-delay="1000">
+      <button><a href="src/Events/Event.html">Check Events of Chemistry Department</a></button>
+    </div>
+  </main>
+
+
+  <menu id="menu">
+    <div><img src="./Public/Webs/cross-small-svgrepo-com.svg" id="Cross-img"></div>
+    <ul class="menu">
+      <a href="#" class="menu-links">Alumnies</a>
+      <a href="" class="menu-links">Teachers</a>
+      <a href="src/Events/Event.html" class="menu-links">Events</a>
+      <a href="" class="menu-links">About</a>
+
+    </ul>
+  </menu>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000
+    });
+  </script>
+  <script src="index.js"></script>
+  <script src="src/Menu/menu.js"></script>
+</body>
+
+</html>
