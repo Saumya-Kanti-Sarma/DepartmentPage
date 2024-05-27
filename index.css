@@ -178,33 +178,38 @@ main h1 {
   }
 
   .container {
-    height: 350px;
-    width: 340px;
+    height: 210px;
+    width: 210px;
   }
 
   .imgs {
-    height: 340px;
+    height: 210px;
 
   }
 
   .teacherImg {
-    width: 340px;
-    height: 340px;
+    width: 210px;
+    height: 210px;
   }
 
 
   .imgbtn {
-    width: 340px;
+    width: 210px;
   }
 
   .imgbtn img {
-    width: 60px;
+    width: 30px;
+  }
+
+  .event-btn {
+    margin-bottom: 0;
   }
 
   .event-btn button {
     width: 180px;
     height: 60px;
     border-radius: 12px;
+    margin: 0;
   }
 
   .event-btn button:hover {

@@ -49,6 +49,7 @@ nav img {
   }
 
   .Navigations img {
+    width: 30px;
     display: block;
     filter: invert(100%);
     cursor: pointer;
