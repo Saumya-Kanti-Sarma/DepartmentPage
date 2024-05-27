@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  height: 100vh;
+  width: 100%;
+}
+
+.Motivational {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  overflow: auto;
+}
+
+.image {
+  width: 45em;
+  height: 37em;
+  object-fit: cover;
+}
+
+.about h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.about p {
+  display: flex;
+  font-size: 1.3em;
+  justify-content: center;
+}
+
+@media (max-width: 760px) {
+  .Motivational {
+    gap: 80px;
+  }
+
+  .image {
+    width: 35em;
+    height: 27em;
+  }
+
+  .about h1 {
+    font-size: 1.2em;
+  }
+
+  .about p {
+    font-size: 1.05em;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .image {
+    width: 25em;
+    height: 17em;
+  }
+
+  .about h1 {
+    font-size: 1.2em;
+  }
+
+  .about p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .image {
+    width: 15em;
+    height: 10.5em;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 22px;
+  }
+}
